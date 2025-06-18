@@ -22,8 +22,12 @@ const Header = ({ activeSection, setActiveSection }: HeaderProps) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-800 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
+            <div className="w-12 h-12 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/607672b2-3400-45ab-9266-bc5aaa5d2dc6.png" 
+                alt="Logo" 
+                className="w-10 h-10"
+              />
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">Sumit</h1>
