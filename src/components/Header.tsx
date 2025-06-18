@@ -23,10 +23,10 @@ const Header = ({ activeSection, setActiveSection }: HeaderProps) => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-800 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">SK</span>
+              <span className="text-white font-bold text-xl">S</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-white">Sumit Kumar</h1>
+              <h1 className="text-xl font-bold text-white">Sumit</h1>
               <p className="text-sm text-gray-400">Code Meets Creativity.</p>
             </div>
           </div>
