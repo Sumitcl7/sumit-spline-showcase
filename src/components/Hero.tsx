@@ -7,9 +7,9 @@ const Spline = lazy(() => import('@splinetool/react-spline'));
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex flex-col overflow-hidden">
       {/* Spline 3D Animation Background */}
-      <div className="absolute inset-0 w-full h-full">
+      <div className="flex-1 w-full h-full min-h-[70vh]">
         <Suspense 
           fallback={
             <div className="w-full h-full bg-gradient-to-br from-purple-900 via-black to-blue-900 flex items-center justify-center">
@@ -24,8 +24,8 @@ const Hero = () => {
         </Suspense>
       </div>
 
-      {/* Content Overlay */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      {/* Content Overlay - Buttons below the 3D scene */}
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pb-20">
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full font-medium hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
             View My Work
