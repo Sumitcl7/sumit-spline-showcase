@@ -72,8 +72,12 @@ const About = () => {
 
           <div className="space-y-6">
             <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-8 text-center">
-              <div className="w-32 h-32 bg-white/20 rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-4xl font-bold text-white">SK</span>
+              <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden">
+                <img 
+                  src="/lovable-uploads/a04bf6ed-837e-4b23-b417-e3c64f2f36ff.png" 
+                  alt="Sumit Kumar"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h4 className="text-xl font-bold text-white mb-2">Sumit Kumar</h4>
               <p className="text-purple-100 mb-4">Cloud & DevOps Engineer</p>
