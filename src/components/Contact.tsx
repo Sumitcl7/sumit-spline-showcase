@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-gray-400">sumit.kumar@example.com</p>
+                  <p className="text-gray-400">krsumits7017@gmail.com</p>
                 </div>
               </div>
               
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Phone</h4>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+91 8538908804</p>
                 </div>
               </div>
               
@@ -43,7 +43,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Location</h4>
-                  <p className="text-gray-400">Available for remote work worldwide</p>
+                  <p className="text-gray-400">Noida, Uttar Pradesh, India</p>
+                  <p className="text-gray-400 text-sm">Available for remote work worldwide</p>
                 </div>
               </div>
             </div>
@@ -72,9 +73,11 @@ const Contact = () => {
               <div>
                 <label className="block text-white font-medium mb-2">Project Type</label>
                 <select className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-purple-500 transition-colors duration-300">
-                  <option>Web Development</option>
-                  <option>Mobile App</option>
-                  <option>UI/UX Design</option>
+                  <option>Cloud Infrastructure</option>
+                  <option>DevOps & Automation</option>
+                  <option>Network Engineering</option>
+                  <option>Backend Development</option>
+                  <option>System Architecture</option>
                   <option>Consulting</option>
                 </select>
               </div>

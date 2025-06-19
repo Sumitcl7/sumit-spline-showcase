@@ -2,28 +2,28 @@
 const Services = () => {
   const services = [
     {
-      title: "Web Development",
-      description: "Full-stack web applications built with modern technologies",
-      icon: "🌐",
-      features: ["React/Next.js", "Node.js/Express", "Database Design", "API Integration"]
+      title: "Cloud Infrastructure",
+      description: "Design and deploy scalable cloud solutions on AWS, GCP, and Azure",
+      icon: "☁️",
+      features: ["AWS/GCP/Azure", "Infrastructure as Code", "Auto Scaling", "Cost Optimization"]
     },
     {
-      title: "UI/UX Design",
-      description: "User-centered design that combines aesthetics with functionality",
-      icon: "🎨",
-      features: ["Responsive Design", "User Research", "Prototyping", "Design Systems"]
+      title: "DevOps & Automation",
+      description: "Streamline development workflows with CI/CD and automation tools",
+      icon: "⚙️",
+      features: ["Jenkins/GitLab CI", "Docker/Kubernetes", "Ansible/Terraform", "Pipeline Automation"]
     },
     {
-      title: "Mobile Development",
-      description: "Cross-platform mobile applications for iOS and Android",
-      icon: "📱",
-      features: ["React Native", "Flutter", "Native Performance", "App Store Deployment"]
+      title: "Network Engineering",
+      description: "Design and implement robust network solutions and security",
+      icon: "🔗",
+      features: ["Network Design", "VPN/Security", "Load Balancing", "Performance Monitoring"]
     },
     {
-      title: "Consulting",
-      description: "Technical consulting and project architecture planning",
-      icon: "💡",
-      features: ["Tech Stack Selection", "Code Reviews", "Performance Optimization", "Team Mentoring"]
+      title: "Backend Development",
+      description: "Build scalable backend systems and APIs with modern technologies",
+      icon: "💻",
+      features: ["Python/Node.js", "Database Design", "API Development", "System Architecture"]
     }
   ];
 
@@ -35,7 +35,7 @@ const Services = () => {
             Services
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Comprehensive solutions to bring your digital vision to life
+            Cloud & DevOps solutions to accelerate your digital transformation
           </p>
         </div>
 

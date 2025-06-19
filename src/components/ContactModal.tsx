@@ -40,7 +40,7 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
 
           <div className="grid gap-4">
             <a 
-              href="mailto:ksumit7017@gmail.com"
+              href="mailto:krsumits7017@gmail.com"
               className="flex items-center space-x-4 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
             >
               <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
@@ -48,12 +48,12 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
               </div>
               <div>
                 <h4 className="text-white font-semibold">Email</h4>
-                <p className="text-gray-400">ksumit7017@gmail.com</p>
+                <p className="text-gray-400">krsumits7017@gmail.com</p>
               </div>
             </a>
             
             <a 
-              href="tel:+918533808304"
+              href="tel:+918538908804"
               className="flex items-center space-x-4 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
             >
               <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
@@ -61,7 +61,7 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
               </div>
               <div>
                 <h4 className="text-white font-semibold">Phone</h4>
-                <p className="text-gray-400">+91 8533808304</p>
+                <p className="text-gray-400">+91 8538908804</p>
               </div>
             </a>
             
@@ -72,6 +72,7 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
               <div>
                 <h4 className="text-white font-semibold">Location</h4>
                 <p className="text-gray-400">Noida, Uttar Pradesh, India</p>
+                <p className="text-gray-400 text-sm">Available for remote work worldwide</p>
               </div>
             </div>
             
