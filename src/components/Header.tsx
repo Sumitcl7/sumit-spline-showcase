@@ -3,17 +3,16 @@ import { ChevronDown } from 'lucide-react';
 
 interface HeaderProps {
   activeSection: string;
-  setActiveSection: (section: string) => void;
+  onNavigate: (section: string) => void;
 }
 
-const Header = ({ activeSection, setActiveSection }: HeaderProps) => {
+const Header = ({ activeSection, onNavigate }: HeaderProps) => {
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About Me' },
-    { id: 'portfolio', label: 'Portfolio' },
-    { id: 'services', label: 'Services', hasDropdown: true },
-    { id: 'blogs', label: 'Blogs' },
-    { id: 'reviews', label: 'Reviews' },
+    { id: 'services', label: 'What I Offer' },
+    { id: 'portfolio', label: 'Featured Projects' },
+    { id: 'contact', label: 'Contact' },
   ];
 
   return (
@@ -38,25 +37,23 @@ const Header = ({ activeSection, setActiveSection }: HeaderProps) => {
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <div key={item.id} className="relative">
-                <button
-                  onClick={() => setActiveSection(item.id)}
-                  className={`flex items-center space-x-1 px-3 py-2 rounded-lg transition-all duration-300 ${
-                    activeSection === item.id
-                      ? 'text-white border-b-2 border-purple-500'
-                      : 'text-gray-300 hover:text-white hover:bg-gray-800'
-                  }`}
-                >
-                  <span>{item.label}</span>
-                  {item.hasDropdown && <ChevronDown className="w-4 h-4" />}
-                </button>
-              </div>
+              <button
+                key={item.id}
+                onClick={() => onNavigate(item.id)}
+                className={`px-3 py-2 rounded-lg transition-all duration-300 ${
+                  activeSection === item.id
+                    ? 'text-white border-b-2 border-purple-500'
+                    : 'text-gray-300 hover:text-white hover:bg-gray-800'
+                }`}
+              >
+                {item.label}
+              </button>
             ))}
           </nav>
 
           {/* Hire Me Button */}
           <button
-            onClick={() => setActiveSection('contact')}
+            onClick={() => onNavigate('contact')}
             className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors duration-300 flex items-center space-x-2"
           >
             <span>💼</span>
